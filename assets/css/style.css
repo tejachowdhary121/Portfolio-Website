@@ -1177,6 +1177,7 @@ form .button-area {
   color: #ffae00;
 }
 
+/* Credit section starts */
 .footer .credit {
   padding: 1rem 0 0 0;
   text-align: center;
@@ -1191,6 +1192,21 @@ form .button-area {
   color: #ffae00;
 }
 
+.footer .credit p {
+  margin: 0;
+}
+
+.footer .credit .copyright {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+.footer .credit .rights {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+/* Heart icon animation */
 .footer .fa {
   color: #e90606;
   margin: 0 0.3rem;
@@ -1210,6 +1226,7 @@ form .button-area {
   }
 }
 
+/* Responsive Design */
 @media (max-width: 450px) {
   .footer .box-container .box {
     margin: 1.5rem;
@@ -1221,6 +1238,16 @@ form .button-area {
 
   .footer .box-container .box .share a {
     padding: 1.2rem;
+  }
+
+  /* Credit Section Adjustments */
+  .footer .credit {
+    font-size: 1.2rem;
+  }
+
+  .footer .credit .copyright,
+  .footer .credit .rights {
+    font-size: 1.1rem;
   }
 }
 /* footer section ends */
