@@ -161,22 +161,15 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // <!-- tilt js effect ends -->
 
 
-// Preloader management starts
+// pre loader start
 function loader() {
     document.querySelector('.loader-container').classList.add('fade-out');
-    setTimeout(() => {
-        document.querySelector('.loader-container').style.display = 'none'; // Completely remove loader
-        document.querySelector('.main-content').style.display = 'block';   // Show the main content
-    }, 1000); // Small delay for smooth fade-out effect
 }
-
 function fadeOut() {
-    setTimeout(loader, 5000);  // Wait 5 seconds before starting the fade-out process
+    setInterval(loader, 5000);
 }
-
-window.onload = fadeOut;  // Ensure preloader logic starts after everything is loaded
-// Preloader management ends
-
+window.onload = fadeOut;
+// pre loader end
 
 // disable developer mode
 document.onkeydown = function (e) {
