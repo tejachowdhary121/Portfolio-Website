@@ -175,7 +175,7 @@ function fadeOut() {
 }
 
 window.onload = fadeOut;  // Ensure preloader logic starts after everything is loaded
-// Preloader management starts
+// Preloader management ends
 
 
 // disable developer mode
